@@ -1,15 +1,21 @@
-Chapter 5 solution to the following book and link to author's GitHub Repo if you'interested in more:
+# MERN Social
 
-Full-Stack React Projects - Second Edition
-By Shama Hoque
-[PacktReactBook](https://www.packtpub.com/product/full-stack-react-projects-second-edition/9781839215414)
+A simple social media application with users, posts, likes and comments - developed using React, Node, Express and MongoDB. 
 
-Solution Code for All Projects in Book:
-[Solution Code for Projects in Book](https://github.com/PacktPublishing/Full-Stack-React-Projects-Second-Edition)
+![MERN Social](https://s3.amazonaws.com/mernbook/git+/social.png "MERN Social")
 
-## Contact
-<img src ="https://avatars0.githubusercontent.com/u/17928947?v=4" alt="Github profile image" width="80px" height="80px" />
+### [Live Demo](http://social2.mernbook.com/ "MERN Social")
 
-__Jon Christie__ 
+#### What you need to run this code
+1. Node (13.12.0)
+2. NPM (6.14.4) or Yarn (1.22.4)
+3. MongoDB (4.2.0)
 
-GitHub: [mathcodes](https://github.com/mathcodes) 
+####  How to run this code
+1. Make sure MongoDB is running on your system 
+2. Clone this repository
+3. Open command line in the cloned folder,
+   - To install dependencies, run ```  npm install  ``` or ``` yarn ```
+   - To run the application for development, run ```  npm run development  ``` or ``` yarn development ```
+4. Open [localhost:3000](http://localhost:3000/) in the browser
+---- 

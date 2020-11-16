@@ -1,5 +1,4 @@
 const path = require('path')
-const webpack = require('webpack')
 const CURRENT_WORKING_DIR = process.cwd()
 
 const config = {
@@ -9,7 +8,7 @@ const config = {
     ],
     output: {
         path: path.join(CURRENT_WORKING_DIR , '/dist'),
-        filename: '[name].bundle.js',
+        filename: 'bundle.js',
         publicPath: "/dist/"
     },
     module: {
